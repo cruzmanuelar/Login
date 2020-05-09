@@ -1,0 +1,26 @@
+body{
+    background-image: url(../img/fondoDj.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.texto{
+    color: white;
+    text-align: center;
+}
+
+.avatar{
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.formulario{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding-top: 20px;
+}
