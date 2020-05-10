@@ -28,21 +28,37 @@ input,label{
     text-align: center;
     margin: 0 auto;
     padding: 5px;
-    font-weight: bolder;
-    border-radius: 5px;
+    font-family: 'Poppins',
+    sans-serif;
+    color: white;
+    
+}
+
+label{
+    font-size: 16px;
 }
 
 input{
+    border-radius: 8px;
+    max-width: 80%;
+    border: 2px solid rgb(13, 1, 68);
+    margin-bottom: 10px;
+    background-color: rgba(109, 125, 189,0.4);
 
-    max-width: 75%;
+}
+
+input::placeholder{
+    color:rgb(160, 160, 160);
 }
 
 h1{
     color:white;
+    font-family: 'Poppins',
+    sans-serif;
 }
 
 .formulario{
-    border: 2px solid white;
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 15px;
     padding: 10px;
     margin: 0 auto;
@@ -50,4 +66,31 @@ h1{
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
     position: relative;
+    box-shadow: 0 0 30px rgba(86, 86, 87, 0.589);
+}
+
+.botones{
+    padding-bottom: 18px;
+    padding-top: 10px;
+}
+
+#botonR,#botonI{
+    padding: 8px 12px;
+    display:inline-block;
+    margin-top: 2px;
+    border-radius: 4px;
+    margin-bottom: 6px;
+    cursor: pointer;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+#botonR{
+    background-color: rgb(41, 206, 41);
+    color: black
+}
+
+#botonI{
+    background-color: rgb(16, 16, 153);
+    color: white;
 }
